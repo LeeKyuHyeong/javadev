@@ -10,12 +10,22 @@ public class ArrayTest03 {
 				{ 80, 70, 60, 50}
 		};
 		
-		for(int i = 0; i < score.length; i++) {
-			for(int j = 0; j < score[i].length; j++) {
+		System.out.println("\t\t[성적표]");
+		System.out.println("================================================");
+		System.out.println("국어\t영어\t수학\t철학\t총점\t평균");
+		for (int i = 0; i < score.length; i++) {
+			int sum = 0;
+			double avg = 0.0;
+
+			for (int j = 0; j < score[i].length; j++) {
+				sum += score[i][j];
+				avg = (double) (sum / score[i].length);
 				System.out.print(score[i][j] + "\t");
 			}
+			System.out.print(sum + "\t" + avg);
 			System.out.println();
 		}
+		System.out.println("================================================");
 	}
 
 }
