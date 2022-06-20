@@ -3,7 +3,7 @@ package basic;
 public class ArrayTest03 {
 
 	public static void main(String[] args) {
-
+		//배열은 객체다 arr.length쓰자
 		int[][] score = {
 				{100, 90, 80, 70},
 				{ 90, 80, 70, 60},
