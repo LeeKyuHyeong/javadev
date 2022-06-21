@@ -1,4 +1,4 @@
-package oop2.static02;
+package oop02.static02;
 
 public class NPTest {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package oop2.static03;
+package oop02.static03;
 
 public class Person {
 	private String name;
