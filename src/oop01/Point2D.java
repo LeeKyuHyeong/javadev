@@ -18,4 +18,7 @@ public class Point2D {
 	public void setY(int y) {
 		this.y = y;
 	}
+	// 게터 세터는 정보은닉(Information Hiding) or 캡슐화(Encapsultaion)를 위함이다. 
+	// 사용자는 내용을 알 필요없고 알기 위해선 메서드를 통해서 접근한다.
+	// private 으로 멤버변수를 감싼다 메서드는 public으로 해놓는다.
 }

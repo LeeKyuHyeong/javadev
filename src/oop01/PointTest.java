@@ -12,5 +12,4 @@ public class PointTest {
 		System.out.printf("x = %d, y = %d",p.getX(), p.getY());
 		
 	}
-
 }
