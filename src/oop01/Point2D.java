@@ -31,12 +31,12 @@ public class Point2D {
 	//기본생성자 default생성자
 	public Point2D() {
 		this(0,0);
-		System.out.println("2D 기본생성자");
+		//System.out.println("2D 기본생성자");
 	}
 	
 	Point2D(int x, int y) {
 		this.x = x;
 		this.y = y;
-		System.out.println("2D(x,y) 생성자");
+		//System.out.println("2D(x,y) 생성자");
 	}
 }

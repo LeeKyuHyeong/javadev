@@ -17,13 +17,14 @@ public class Point3D extends Point2D {
 		System.out.printf(", z = %d\n", this.getZ());
 	}
 
-	public Point3D() {
-		System.out.println("Point3d() 수행중");
+	public Point3D() {		
+		this(10, 20, 30);
+		//System.out.println("Point3d() 수행중");
 	}
 
 	public Point3D(int x, int y, int z) {
 		super(x, y);
 		this.z = z;
-		System.out.println("Point3d(x, y, z) 수행중");
+		//System.out.println("Point3d(x, y, z) 수행중");
 	}
 }
