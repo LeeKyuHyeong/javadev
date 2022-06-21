@@ -11,7 +11,9 @@ public class ThreadTest01 {
 		 *			4) 객체.start()로 Thread 생성
 		 *		2. Runnable 인터페이스 구현
 		 *			1) implements Runnable
-		 *
+		 *			2) run() 메소드 재 정의
+		 *			3) Runnable 인터페이스를 구현한 객체를 인자로 전달
+		 *			4) start() 메소드 호출
 		 */
 		run();
 		
